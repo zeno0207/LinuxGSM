@@ -256,8 +256,8 @@ else
 	core_exit.sh
 fi
 
-alerttitle="${alertemoji} ${alertaction} - ${servername} ${alertemoji}"
-alerticon="https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${githubbranch}/lgsm/data/gameicons/${shortname}-icon.png"
+alerttitle="${alertaction} - ${selfname} - ${servername}"
+alerticon="https://gh-proxy.com/https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${githubbranch}/lgsm/data/gameicons/${shortname}-icon.png"
 
 # Generate alert log.
 fn_alert_log

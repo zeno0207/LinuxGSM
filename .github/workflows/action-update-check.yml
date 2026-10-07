@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Download linuxgsm.sh
-        run: wget "https://raw.githubusercontent.com/GameServerManagers/LinuxGSM/${LGSM_REF}/linuxgsm.sh"; chmod +x linuxgsm.sh
+        run: wget "https://gh-proxy.com/https://raw.githubusercontent.com/zeno0207/LinuxGSM/${LGSM_REF}/linuxgsm.sh"; chmod +x linuxgsm.sh
 
       - name: Install dependencies
         run: sudo dpkg --add-architecture i386; sudo apt-get update;

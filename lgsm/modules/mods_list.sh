@@ -55,7 +55,7 @@ amxxtslatestfile="amxmodx-${amxxtsversion}-${amxxtsmod}-linux.tar.gz"
 amxxtsdownloadurl="https://github.com/alliedmodders/amxmodx/releases/download/1.9.0.5303/${amxxtslatestfile}"
 amxxtsurl="${amxxtsdownloadurl}"
 # Metamod:Source
-metamodsourceversion="1.12"
+metamodsourceversion="2.0"
 metamodsourcescrapeurl="https://mms.alliedmods.net/mmsdrop/${metamodsourceversion}/mmsource-latest-linux"
 metamodsourcelatestfile=$(wget "${metamodsourcescrapeurl}" -q -O -)
 metamodsourcedownloadurl="https://www.metamodsource.net/latest.php?os=linux&version=${metamodsourceversion}"

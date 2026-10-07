@@ -18,7 +18,7 @@ json=$(
 			"color": "${alertcolourhex}",
 			"author_name": "LinuxGSM Alert",
 			"author_link": "https://linuxgsm.com",
-			"author_icon": "https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${githubbranch}/lgsm/data/alert_discord_logo.jpg",
+			"author_icon": "https://gh-proxy.com/https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${githubbranch}/lgsm/data/alert_discord_logo.jpg",
 			"thumb_url": "${alerticon}",
 			"text": "",
 			"fields": [

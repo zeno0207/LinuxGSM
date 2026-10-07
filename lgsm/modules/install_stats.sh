@@ -20,7 +20,7 @@ echo -e "* distro"
 echo -e "* game server resource usage"
 echo -e "* server hardware info"
 if [ -z "${autoinstall}" ]; then
-	if fn_prompt_yn "Allow anonymous usage statistics?" Y; then
+	if fn_prompt_yn "Allow anonymous usage statistics?" n; then
 		echo "stats=\"on\"" >> "${configdirserver}/common.cfg"
 		fn_print_information_nl "Stats setting is now enabled in common.cfg."
 	fi

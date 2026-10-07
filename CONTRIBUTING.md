@@ -171,7 +171,7 @@ It is recommended that you have a testing environment available to test your cod
 ## GitHub Branch Select
 # Allows for the use of different function files
 # from a different repo and/or branch.
-githubuser="GameServerManagers"
+githubuser="zeno0207"
 githubrepo="LinuxGSM"
 githubbranch="master"
 ```
