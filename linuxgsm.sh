@@ -35,7 +35,16 @@ lgsmdir="${rootdir}/lgsm"
 lgsmlogdir="${logdir}/script"
 lgsmlog="${lgsmlogdir}/${selfname}-script.log"
 steamcmddir="${HOME}/.steam/steamcmd"
+
+if [ "${shortname}" == "sy" ]; then
+     [ -n "${LGSM_SERVERFILES}" ] && serverfiles="${LGSM_SERVERFILES}" || serverfiles="${rootdir}/serverfiles/Synergy"
+elif [ "${shortname}" == "hl2" ]; then
+     [ -n "${LGSM_SERVERFILES}" ] && serverfiles="${LGSM_SERVERFILES}" || serverfiles="${rootdir}/serverfiles/Half-Life 2"
+else
 [ -n "${LGSM_SERVERFILES}" ] && serverfiles="${LGSM_SERVERFILES}" || serverfiles="${rootdir}/serverfiles/${gameservername}"
+fi    
+ 
+ 
 modulesdir="${lgsmdir}/modules"
 tmpdir="${lgsmdir}/tmp"
 [ -n "${LGSM_DATADIR}" ] && datadir="${LGSM_DATADIR}" || datadir="${lgsmdir}/data"

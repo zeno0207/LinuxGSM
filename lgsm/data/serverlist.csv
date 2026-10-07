@@ -49,6 +49,7 @@ fctr,fctrserver,Factorio,ubuntu-24.04
 fof,fofserver,Fistful of Frags,ubuntu-24.04
 gmod,gmodserver,Garrys Mod,ubuntu-24.04
 hcu,hcuserver,HYPERCHARGE: Unboxed,ubuntu-24.04
+hl2,hl2server,Half-Life 2,ubuntu-24.04
 hl2dm,hl2dmserver,Half-Life 2: Deathmatch,ubuntu-24.04
 hldm,hldmserver,Half-Life: Deathmatch,ubuntu-24.04
 hldms,hldmsserver,Half-Life Deathmatch: Source,ubuntu-24.04
@@ -113,6 +114,7 @@ squad44,squad44server,Squad 44,ubuntu-24.04
 st,stserver,Stationeers,ubuntu-24.04
 stn,stnserver,Survive the Nights,ubuntu-24.04
 sven,svenserver,Sven Co-op,ubuntu-24.04
+sy,syserver,Synergy,ubuntu-24.04
 terraria,terrariaserver,Terraria,ubuntu-24.04
 tf,tfserver,The Front,ubuntu-24.04
 tf2,tf2server,Team Fortress 2,ubuntu-24.04

@@ -490,6 +490,11 @@ fix_steamcmd.sh() {
 	modulefile="${FUNCNAME[0]}"
 	fn_fetch_module
 }
+ 
+fix_sy.sh() {
+ 	modulefile="${FUNCNAME[0]}"
+	fn_fetch_module
+}
 
 fix_terraria.sh() {
 	modulefile="${FUNCNAME[0]}"
